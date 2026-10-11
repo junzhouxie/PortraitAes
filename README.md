@@ -8,8 +8,8 @@
 <a href="https://portraitaes.github.io/" target="_blank">
   <img alt="Project" src="https://img.shields.io/badge/Project-PortraitAes-blue?logo=githubpages" height="25">
 </a>
-<a href="https://huggingface.co/Qwen/Qwen3.5-9B" target="_blank">
-  <img alt="Base Model" src="https://img.shields.io/badge/🤗_Base_Model-Qwen3.5--9B-ffc107" height="25">
+<a href="https://huggingface.co/Junzou/PortraitAes" target="_blank">
+  <img alt="Model" src="https://img.shields.io/badge/🤗_Model-PortraitAes-ffc107" height="25">
 </a>
 
 **Junzhou Xie**<sup>1,2,‡</sup>, **Haozhong Xiong**<sup>2,‡</sup>,
@@ -59,8 +59,8 @@ Prepare one portrait per JSONL line:
 {"id": "portrait-001", "image": "/path/to/portrait.jpg"}
 ```
 
-Download the PortraitAes model weights, set `MODEL_PATH` to the local model
-directory, and run:
+Download the [PortraitAes model weights](https://huggingface.co/Junzou/PortraitAes),
+set `MODEL_PATH` to the local model directory, and run:
 
 ```bash
 MODEL_PATH=/path/to/PortraitAes \
