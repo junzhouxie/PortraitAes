@@ -1,8 +1,6 @@
 <div align="center">
 
-# PortraitAes
-
-### Intent-Conditioned Structured Portrait Aesthetics Assessment
+# PortraitAes: Intent-Conditioned Structured Portrait Aesthetics Assessment
 
 <a href="https://arxiv.org/abs/2610.05010" target="_blank">
   <img alt="arXiv" src="https://img.shields.io/badge/arXiv-2610.05010-b31b1b?logo=arxiv" height="25">
