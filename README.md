@@ -12,8 +12,6 @@
   <img alt="Base Model" src="https://img.shields.io/badge/🤗_Base_Model-Qwen3.5--9B-ffc107" height="25">
 </a>
 
-<br><br>
-
 **Junzhou Xie**<sup>1,2,‡</sup>, **Haozhong Xiong**<sup>2,‡</sup>,
 **Xunyun Tian**<sup>2</sup>, **Kaile Du**<sup>1</sup>,
 **Tianchen Yu**<sup>2</sup>, **Qiang Li**<sup>2</sup>,
