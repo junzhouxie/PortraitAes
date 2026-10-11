@@ -1,0 +1,20 @@
+name: portraitaes
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.12
+  - pip
+  - pip:
+      # Core versions used for the released training and inference code.
+      - torch==2.11.0
+      - torchvision==0.26.0
+      - transformers==5.12.1
+      - ms-swift==4.3.1
+      - accelerate==1.14.0
+      - datasets==4.8.4
+      - deepspeed==0.17.6
+      - peft==0.19.1
+      - qwen-vl-utils==0.0.14
+      - -e .

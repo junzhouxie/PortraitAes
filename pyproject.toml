@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "portraitaes"
+version = "0.1.0"
+description = "SFT, GRPO, and inference code for multidimensional portrait aesthetics assessment"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "Pillow>=10",
+]
+
+[project.optional-dependencies]
+train = [
+    "accelerate>=0.30",
+    "datasets>=2.18",
+    "ms-swift",
+    "numpy>=1.26",
+    "tensorboard",
+    "torch>=2.3",
+    "transformers",
+]
+inference = [
+    "accelerate>=0.30",
+    "qwen-vl-utils",
+    "torch>=2.3",
+    "transformers",
+]
+dev = ["pytest>=8"]
+
+[project.scripts]
+portraitaes-infer = "portraitaes.inference.local:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"portraitaes.inference" = ["prompts/*.txt"]
+
+[tool.pytest.ini_options]
+addopts = "-q"
+pythonpath = ["src"]
+testpaths = ["tests"]
