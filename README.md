@@ -133,7 +133,7 @@ record grounded in visible portrait evidence. This produces one routing record
 and six specialist records per image.
 
 <p align="center">
-  <img src="assets/fig2.jpg" width="100%" alt="PortraitAes-Bench construction pipeline">
+  <img src="assets/fig2.png" width="100%" alt="PortraitAes-Bench construction pipeline">
 </p>
 <p align="center"><em>Figure 2. Benchmark construction from expert rubrics to verified intent-conditioned targets.</em></p>
 
@@ -191,7 +191,7 @@ specialized aesthetic models on both benchmark settings.
 <summary><strong>Structured predictions across portrait intents</strong></summary>
 
 <p align="center">
-  <img src="assets/fig6.jpg" width="100%" alt="Structured predictions across portrait intents">
+  <img src="assets/fig6.png" width="100%" alt="Structured predictions across portrait intents">
 </p>
 <p align="center"><em>Figure 6. Structured predictions for twelve portraits across six intent categories, grouped by category and ordered by decreasing overall score. Colored bars show the six specialist scores.</em></p>
 </details>
